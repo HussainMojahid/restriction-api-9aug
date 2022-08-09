@@ -1,0 +1,7 @@
+image: hussainnv/ent-strapi-template-project:5.0.3
+dbms: none
+ingressPath: "/entando-template-api"
+healthCheckPath: "/actuator/health"
+roles:
+  - "et-first-role"
+  - "et-second-role"
